@@ -1,0 +1,69 @@
+.addition-screen Label{
+    color: white;
+    font-size: 14px;
+}
+.form-part{
+    flex: 0 0 33%;
+    max-width: 33%;
+}
+.grid-part{
+    flex: 0 0 67%;
+    max-width: 67%;
+    padding: 1px 4px;
+}
+.grid-part .col-6{
+    padding:0px;
+}
+.grid-part .k-detail-cell{
+    padding: 6px 0px;
+}
+.sky-back-color{
+    background-color: #8faadc;
+    margin: auto;
+    height: 99%;
+}
+.form-part .col-6{
+    padding: 0px 2px;
+    text-align: right;
+    margin: auto;
+}
+.form-part .k-button {
+    background-color: rgb(237, 125, 49);
+    color: #fff;
+    background-image: none;
+}
+.form-part .k-button:hover{
+    background-color: rgb(233, 165, 120);
+    color: #fff;
+    background-image: none;
+  }
+.k-grid th, .k-grid td {
+    padding: 8px 2px;
+}
+@media (min-width: 1550px) {
+    .form-part{
+        flex: 0 0 28%;
+        max-width: 28%;
+    }
+    .grid-part{
+        flex: 0 0 72%;
+        max-width: 72%;
+    }
+    
+}
+@media (min-width: 1750px) {
+    .form-part{
+        flex: 0 0 23%;
+        max-width: 23%;
+    }
+    .grid-part{
+        flex: 0 0 77%;
+        max-width: 77%;
+    }
+    .addition-screen Label{
+        font-size: 15px;
+    }
+    .k-widget, .k-textbox{
+        font-size: 15px;
+    }
+}
